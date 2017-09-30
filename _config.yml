@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -78,9 +78,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+#scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -161,7 +161,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://ae.engr.ku.edu/sites/ae.engr.ku.edu/files/drupal%20headshot_3.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -310,7 +310,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: cfdplay
   count: true
 
 # Hypercomments
@@ -353,7 +353,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-101636123-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
