@@ -210,6 +210,7 @@
                 {% if not theme.post_wordcount.separated_meta %}
                   <span class="post-meta-divider">|</span>
                 {% endif %}
+                <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
@@ -311,7 +312,11 @@
         {{ post.content }}
       {% endif  %}
     </div>
-
+    <div>
+      {% if not is_index %}
+        {% include 'passage-end-tag.swig' %}
+      {% endif %}
+    </div>
     <div>
       {% if not is_index %}
         {% include 'wechat-subscriber.swig' %}

@@ -20,3 +20,7 @@
   </a>
 </div>
 {% endif %}
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count"> Total blog stats: {{ totalcount(site) }} words</span>
+</div>
