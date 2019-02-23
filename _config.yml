@@ -415,8 +415,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: 
+  app_key: 
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -619,7 +619,7 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
-reward_comment: Click to donate via Wechat or Alipay, but don't give Felix too much!
+reward_comment: Click to donate via Wechat or Alipay
 wechatpay: /images/wechat_pay.png
 alipay: /images/alipay.png
 
